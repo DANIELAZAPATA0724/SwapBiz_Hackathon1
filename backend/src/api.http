@@ -1,0 +1,30 @@
+### CRUD CATEGORIES
+
+### Get all categories
+GET http://localhost:3111/api/v1/categories
+
+### Get category by id
+GET http://localhost:3111/api/v1/categories/1
+
+### Post Create new category 
+POST http://localhost:3111/api/v1/roles 
+Content-Type: application/json
+
+{
+    "name": "Mascara Nica",
+    "category_id": 7,
+    "user_id": 1
+}
+
+### Patch update category
+PATCH http://localhost:3111/api/v1/role/6
+
+{
+    "name": "Mascara Tica",
+    "category_id": 6,
+    "user_id": 1
+}
+
+### Delete category
+
+DELETE http://localhost:3111/api/v1/role/7
