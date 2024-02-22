@@ -1,0 +1,239 @@
+.mobile-upload-your {
+    background-color: #e8ecef;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .mobile-upload-your .overlap-wrapper {
+    background-color: #e8ecef;
+    height: 932px;
+    overflow: hidden;
+    width: 430px;
+  }
+  
+  .mobile-upload-your .overlap {
+    height: 1033px;
+    left: -44px;
+    position: relative;
+    top: -69px;
+    width: 576px;
+  }
+  
+  .mobile-upload-your .overlap-group-wrapper {
+    height: 1033px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 576px;
+  }
+  
+  .mobile-upload-your .overlap-group-2 {
+    height: 1033px;
+    position: relative;
+  }
+  
+  .mobile-upload-your .frame-linear-instance {
+    left: 0 !important;
+    position: absolute !important;
+    top: 37px !important;
+  }
+  
+  .mobile-upload-your .honeycomb-instance {
+    left: 351px !important;
+    position: absolute !important;
+    top: 0 !important;
+  }
+  
+  .mobile-upload-your .yellow-continue-button {
+    left: 110px !important;
+    position: absolute !important;
+    top: 904px !important;
+  }
+  
+  .mobile-upload-your .form-mobile-update {
+    height: 639px;
+    left: 51px;
+    position: absolute;
+    top: 231px;
+    width: 417px;
+  }
+  
+  .mobile-upload-your .overlap-2 {
+    height: 639px;
+    position: relative;
+  }
+  
+  .mobile-upload-your .rectangle-3 {
+    background-color: var(--variable-collection-search-bar);
+    border-radius: 20px;
+    height: 639px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 409px;
+  }
+  
+  .mobile-upload-your .text-wrapper-5 {
+    color: var(--variable-collection-logo);
+    font-family: "Montserrat-Medium", Helvetica;
+    font-size: 24px;
+    font-weight: 500;
+    left: 105px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 12px;
+    width: 224px;
+  }
+  
+  .mobile-upload-your .text-wrapper-6 {
+    color: var(--variable-collection-logo);
+    font-family: "Montserrat-Medium", Helvetica;
+    font-size: 12px;
+    font-weight: 500;
+    left: 303px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-decoration: underline;
+    top: 235px;
+    width: 94px;
+  }
+  
+  .mobile-upload-your .precio-ubicacion {
+    color: var(--variable-collection-logo);
+    font-family: "Montserrat-Medium", Helvetica;
+    font-size: 12px;
+    font-weight: 500;
+    left: 48px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 306px;
+    width: 335px;
+  }
+  
+  .mobile-upload-your .text-wrapper-7 {
+    color: var(--variable-collection-logo);
+    font-family: "Montserrat-Medium", Helvetica;
+    font-size: 12px;
+    font-weight: 500;
+    left: 48px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 507px;
+  }
+  
+  .mobile-upload-your .rectangle-4 {
+    background-color: var(--variable-collection-search-bar);
+    border-radius: 30px;
+    height: 57px;
+    left: 48px;
+    position: absolute;
+    top: 445px;
+    width: 323px;
+  }
+  
+  .mobile-upload-your .rectangle-5 {
+    background-color: var(--variable-collection-search-bar);
+    border-radius: 30px;
+    height: 24px;
+    left: 48px;
+    position: absolute;
+    top: 325px;
+    width: 81px;
+  }
+  
+  .mobile-upload-your .rectangle-6 {
+    background-color: var(--variable-collection-search-bar);
+    border-radius: 30px;
+    height: 18px;
+    left: 48px;
+    position: absolute;
+    top: 388px;
+    width: 109px;
+  }
+  
+  .mobile-upload-your .text-wrapper-8 {
+    color: var(--variable-collection-logo);
+    font-family: "Montserrat-Medium", Helvetica;
+    font-size: 12px;
+    font-weight: 500;
+    height: 19px;
+    left: 286px;
+    letter-spacing: 0.6px;
+    line-height: 14.8px;
+    position: absolute;
+    text-align: center;
+    text-decoration: underline;
+    top: 611px;
+    width: 131px;
+  }
+  
+  .mobile-upload-your .upload-phoyos-instance {
+    left: 48px !important;
+    position: absolute !important;
+    top: 541px !important;
+  }
+  
+  .mobile-upload-your .group-2 {
+    height: 183px;
+    left: 21px;
+    position: absolute;
+    top: 58px;
+    width: 365px;
+  }
+  
+  .mobile-upload-your .rectangle-7 {
+    background-color: #d4d4d470;
+    border-radius: 20px;
+    height: 159px;
+    left: 0;
+    position: absolute;
+    top: 4px;
+    width: 113px;
+  }
+  
+  .mobile-upload-your .rectangle-8 {
+    background-color: #d4d4d470;
+    border-radius: 20px;
+    height: 159px;
+    left: 252px;
+    position: absolute;
+    top: 0;
+    width: 113px;
+  }
+  
+  .mobile-upload-your .rectangle-9 {
+    background-color: #d4d4d470;
+    border-radius: 20px;
+    height: 159px;
+    left: 124px;
+    position: absolute;
+    top: 0;
+    width: 113px;
+  }
+  
+  .mobile-upload-your .iconos-pagina-sube-tu-anuncio-cat {
+    left: 25px !important;
+    position: absolute !important;
+    top: 81px !important;
+  }
+  
+  .mobile-upload-your .creativity-2 {
+    height: 64px !important;
+    left: 18px !important;
+    position: absolute !important;
+    top: 9px !important;
+    width: 64px !important;
+  }
+  
+  .mobile-upload-your .iconos-edit-trash-instance {
+    left: 145px !important;
+    position: absolute !important;
+    top: 229px !important;
+  }
+  

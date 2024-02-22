@@ -1,0 +1,111 @@
+.header {
+    height: 93px;
+    position: relative;
+    width: 988px;
+}
+
+.header .overlap-group {
+    background-color: #ffffff;
+    border: 1px solid;
+    border-color: #000000;
+    border-radius: 20px;
+    height: 42px;
+    left: 380px;
+    position: absolute;
+    top: 0;
+    width: 608px;
+}
+
+.header .overlap {
+    height: 19px;
+    left: 11px;
+    position: absolute;
+    top: 13px;
+    width: 148px;
+}
+
+.header .todas-categorias {
+    color: var(--variable-collection-logo);
+    font-family: "Inter-Bold", Helvetica;
+    font-size: 12px;
+    font-weight: 700;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 0;
+    width: 148px;
+}
+
+.header .mingcute-down-line {
+    height: 18px;
+    left: 113px;
+    position: absolute;
+    top: 1px;
+    width: 18px;
+}
+
+.header .text-wrapper {
+    color: #afadad;
+    font-family: "Inter-Medium", Helvetica;
+    font-size: 12px;
+    font-weight: 500;
+    left: 165px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 12px;
+    width: 226px;
+}
+
+.header .vector {
+    height: 18px;
+    left: 565px;
+    position: absolute;
+    top: 12px;
+    width: 18px;
+}
+
+.header .logo-instance {
+    background-image: url(./image.svg) !important;
+    left: -58px !important;
+    position: absolute !important;
+    top: -3px !important;
+}
+
+.header .div {
+    color: #000000;
+    font-family: "Inter-Bold", Helvetica;
+    font-size: 12px;
+    font-weight: 700;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 75px;
+    width: 148px;
+}
+
+.header .notifications-button {
+    height: 32px;
+    left: 1147px;
+    position: absolute;
+    top: -2px;
+    width: 32px;
+}
+
+.header .heart-instance {
+    height: 34px !important;
+    left: 1209px !important;
+    position: absolute !important;
+    top: -1px !important;
+    width: 34px !important;
+}
+
+.header .user {
+    height: 42px;
+    left: 1273px;
+    position: absolute;
+    top: -8px;
+    width: 42px;
+}
