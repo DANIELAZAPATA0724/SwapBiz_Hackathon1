@@ -1,0 +1,10 @@
+.navegadorFooter {
+    display: flex;
+    width: 90vw;
+    justify-content: space-between;
+}
+
+.navegadorFooter div {
+    height: 26px;
+    width: auto;
+}

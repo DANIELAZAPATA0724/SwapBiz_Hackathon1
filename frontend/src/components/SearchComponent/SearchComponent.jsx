@@ -3,7 +3,7 @@ import "./SearchComponent.css"
 export const SearchComponent = () => {
   return (
     <>
-        <div className="buscador">Buscar</div>
+      <input className="buscador" type="text" placeholder="Buscar en Bizz" />
     </>
   )
 }
