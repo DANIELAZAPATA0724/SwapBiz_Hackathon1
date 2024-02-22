@@ -1,7 +1,7 @@
 import "./Header.css"
 import React from "react";
 import { Heart } from "./Heart";
-import { LogoWrapper } from "./LogoWrapper";
+import { Logo } from "./LogoWrapper";
 import "./style.css";
 
 export const Header = () => {
