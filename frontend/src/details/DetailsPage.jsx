@@ -4,6 +4,7 @@ import imageWeding from "../assets/imageWedding.jpg";
 import { HeartIcon } from "../assets/heartIcon";
 import star from "../assets/star.svg";
 import fotoPerfil from "../assets/fotoPerfil.jpg";
+import { BackButton } from "../assets/BackButton";
 
 export const DetailsPage = () => {
   
@@ -12,6 +13,7 @@ return (
         <section className="seccionImagen">
             <div className="imagenesDetails">
                 <div className="heartIcon">< HeartIcon /></div>
+                <div className="backButton"> <BackButton/></div>
                 <img src={imageWeding} alt="" />
             </div>
         </section>

@@ -18,10 +18,22 @@
     position: absolute;
     top: 15px;
     right: 15px;
+    cursor: pointer;
 }
 
 .heartIcon:hover svg path {
     stroke: white;
+}
+
+.backButton {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    cursor: pointer;
+}
+
+.backButton:hover svg ellipse {
+    fill-opacity: 0.60;
 }
 
 .seccionInfo {
