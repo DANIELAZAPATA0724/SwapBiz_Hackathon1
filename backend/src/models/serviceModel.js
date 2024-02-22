@@ -1,4 +1,4 @@
-import { pool } from "../database/db.js";
+/* import { pool } from "../database/db.js";
 
 const ServiceModel = {
   getAllServices: async () => {
@@ -37,4 +37,14 @@ const ServiceModel = {
       },
 };
 
-export { ServiceModel }
+export { ServiceModel } */
+
+//importamos sequelize
+import { DataTypes } from "sequelize";
+
+const ServiceModel = db.define("services", {
+  title: { type: DataTypes.STRING },
+  content: { type: DataTypes.STRING },
+  Url_image: { type: DataTypes.STRING }
+});
+export default ServiceModel;
