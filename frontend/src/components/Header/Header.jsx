@@ -1,7 +1,7 @@
 import "./Header.css"
 import React from "react";
 import { Heart } from "./Heart";
-import { Logo } from "./LogoWrapper";
+import { Logo } from "../Logo/Logo";
 import "./style.css";
 
 export const Header = () => {
@@ -15,7 +15,7 @@ export const Header = () => {
         <div className="text-wrapper">Buscar ...</div>
         <img className="vector" alt="Vector" src="vector.svg" />
       </div>
-      <LogoWrapper className="logo-instance" />
+      <Logo className="logo-instance" />
       <div className="div"> Todas Categorias</div>
       <img className="notifications-button" alt="Notifications button" src="notifications-button.svg" />
       <Heart className="heart-instance" />
