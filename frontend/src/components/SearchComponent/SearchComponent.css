@@ -1,0 +1,7 @@
+.buscador {
+    width: 360px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: white;
+    color: var(--darkBlue);
+}
