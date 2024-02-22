@@ -4,6 +4,7 @@ const CategoriesController = {
   getAllCategories: async (_req, res) => {
     try {
       const allCategories = await CategoriesModel.getAllCategories();
+      console.log(allCategories);
       res.json(allCategories);
     } catch (error) {
       res.status(500).json({ error: "Ocurrió un error al obtener todas las categorías" });
@@ -12,11 +13,7 @@ const CategoriesController = {
   getCategories: async (req, res) => {
     try {
         const category = await CategoriesModel.getCategory(req.params.categoryId);
-        if (category.length > 0) {
-            res.json(category[0]); 
-        } else {
-            res.status(404).send("Categoría no encontrada");
-        }
+       res.json(category)
     } catch (error) {
         console.error("Error al obtener la categoría:", error);
         res.status(500).send("Ocurrió un error al obtener la categoría");
