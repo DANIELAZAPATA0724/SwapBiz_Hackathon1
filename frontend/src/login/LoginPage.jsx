@@ -1,4 +1,6 @@
 import "./LoginPage.css";
+
+import { Link } from 'react-router-dom';
 import { Logo } from "../components/Logo/Logo";
 import PolygonLogin from "../assets/polygonLogin.svg";
 
@@ -16,7 +18,7 @@ export const LoginPage = () => {
           <h3>O con correo electrónico</h3>
           <input className="inputBox" type="text" placeholder="Su correo" required />
           <input className="inputBox" type="password" placeholder="contraseña" required />
-          <button className="submitButton" type="submit">Entrar</button>
+          <Link to="/home" className="submitButton">Entrar</Link>
           <a href="#" className="register-link">Nuevo bee? Registro</a>
         </form>
       </div>
