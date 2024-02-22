@@ -1,7 +1,7 @@
 import { CategoriesModel } from "../models/categoriesModel.js";
 
 const CategoriesController = {
-  getAllCategories: async (req, res) => {
+  getAllCategories: async (_req, res) => {
     try {
       const allCategories = await CategoriesModel.getAllCategories();
       res.json(allCategories);
