@@ -1,8 +1,14 @@
-import "./App.css";
-import { AppRouter } from "./router/AppRouter";
+
+import LoginForm from "./Componentes/LoginForm/LoginForm";
+
 
 function App() {
-  return (<AppRouter />);
+  return (
+  <div>
+ <LoginForm/>
+  </div>
+  
+  );
 }
 
 export default App;
