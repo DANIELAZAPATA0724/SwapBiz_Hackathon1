@@ -2,23 +2,20 @@ import { ServiceModel } from "../models/serviceModel.js";
 
 
 const ServiceController = {
-    getAllServices: async ( _req, res) => {
+    getAllServices: async (req, res) => {
         const allServices = await ServiceModel.getAllServices();
          res.send(allServices);
     },
-    getService: async (_req, res) => {
+    getService: async (req, res) => {
         try {
-            const service = await ServiceModel.getService(_req.params.service_Id);
-            if (service.length > 0) {
-                res.json(service[0]); 
-            } else {
-                res.status(404).send("Servicio no encontrado"); 
-            }
+            const blog = await ServiceModel.findAll({
+                where:{ id:req.params.id }
+            })
+            res.json(blog[0])
         } catch (error) {
-            console.error("Error al obtener el servicio:", error);
-            res.status(500).send("Ocurrió un error al obtener el servicio");
+            res.json( {message: error.message} )
         }
-    },
+},
     createNewService: async (req, res) => {
         try {
             const { body } = req;
