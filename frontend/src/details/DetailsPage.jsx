@@ -1,4 +1,5 @@
 import "./DetailsPage.css";
+import { Link } from "react-router-dom";
 
 import imageWeding from "../assets/imageWedding.jpg";
 import { HeartIcon } from "../assets/HeartIcon";
@@ -13,7 +14,9 @@ return (
         <section className="seccionImagen">
             <div className="imagenesDetails">
                 <div className="heartIcon">< HeartIcon /></div>
-                <div className="backButton"> <BackButton/></div>
+                <Link to="/home" className="backButton">
+                    <BackButton/>
+                </Link>
                 <img src={imageWeding} alt="" />
             </div>
         </section>
