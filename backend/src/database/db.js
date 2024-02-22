@@ -1,9 +1,9 @@
 import { Sequelize } from "sequelize";
 
-const db = new Sequelize("swapbizz_hackathon", "root", "123456789", {
+const db = new Sequelize("swapbizz_hakathon", "root", "", {
     host: "localhost",
-    dialect: "mysql"
-    /* port: 3306 */
+    dialect: "mysql",
+     port: 3306 
   });
 
 export default db;

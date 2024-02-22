@@ -41,10 +41,15 @@ export { ServiceModel } */
 
 //importamos sequelize
 import { DataTypes } from "sequelize";
+import db from "../database/db.js"
 
 const ServiceModel = db.define("services", {
-  title: { type: DataTypes.STRING },
-  content: { type: DataTypes.STRING },
-  Url_image: { type: DataTypes.STRING }
+  service_id: { type: DataTypes.STRING },
+  name: { type: DataTypes.STRING },
+  description: { type: DataTypes.STRING },
+  price: { type: DataTypes.DECIMAL },
+  category_id: { type: DataTypes.STRING },
+  user_id: { type: DataTypes.STRING },
+  is_available : { type: DataTypes.BOOLEAN }
 });
 export default ServiceModel;

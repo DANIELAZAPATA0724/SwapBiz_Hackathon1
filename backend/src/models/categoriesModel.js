@@ -1,4 +1,4 @@
-import { pool } from "../database/db.js";
+import  pool  from "../database/db.js";
 
 const CategoriesModel = {
   getAllCategories: async () => {

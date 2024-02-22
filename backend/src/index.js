@@ -5,7 +5,7 @@ import db from "./database/db.js";
 
 import  v1CategoriesRouter  from './v1/routes/categoriesRouter.js';
 import  v1ServiceRouter  from './v1/routes/serviceRouter.js';
-import { PORT } from "./config.js";
+import { PORT } from "../config.js";
 
 
 const app = express();
