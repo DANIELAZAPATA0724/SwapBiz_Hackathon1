@@ -3,9 +3,15 @@ import  ServiceModel  from "../models/serviceModel.js";
 
 const ServiceController = {
     getAllServices: async (req, res) => {
-        const allServices = await ServiceModel.getAllServices();
-         res.send(allServices);
+        try {
+            const services = await ServiceModel.findAll()
+            res.json(services)
+        } catch (error) {
+            res.json( {message: error.message} )
+        }
     },
+
+
     getService: async (req, res) => {
         try {
             const blog = await ServiceModel.findAll({
