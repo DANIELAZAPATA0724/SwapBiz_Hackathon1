@@ -1,0 +1,92 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.wrapper h2 {
+  font-size: 24px;
+  color: var(--darkBlue);
+  font-weight: bold;
+}
+
+.google-button {
+  width: 175px;
+  height: 35px;
+  background-color: var(--orange);
+  color: white;
+  border: none;
+  border-radius: 20px;
+  margin: 15px 0;
+  cursor: pointer;
+}
+
+.google-button:hover {
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.wrapper h3 {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--darkBlue);
+  margin: 15px 0;
+  text-align: center;
+}
+
+.wrapper form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.inputBox {
+  width: 308px;
+  height: 50px;
+  border-radius: 20px;
+  background-color: transparent;
+  border: 3px solid var(--orange);
+  color: var(--darkBlue);
+  padding-left: 20px;
+  outline: none;
+  margin: 15px 0;
+  font-size: 14px;
+}
+
+.inputBox::placeholder {
+  font-size: 14px;
+  color: var(--darkBlue);
+  font-weight: 400;
+}
+
+.submitButton {
+  width: 300px;
+  height: 38px;
+  border-radius: 30px;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 218, 39, 1) 0%,
+    rgba(255, 179, 0, 1) 100%
+  );
+  margin: 20px auto;
+  cursor: pointer;
+}
+
+.submitButton:hover {
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.register-link {
+  font-size: 14px;
+  text-align: center;
+  margin-top: 20px;
+  color: var(--darkBlue);
+}
+
+.register-link:hover {
+    color: var(--orange);
+}

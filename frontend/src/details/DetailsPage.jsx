@@ -1,7 +1,7 @@
 import "./DetailsPage.css";
 
 import imageWeding from "../assets/imageWedding.jpg";
-import { HeartIcon } from "../assets/heartIcon";
+import { HeartIcon } from "../assets/HeartIcon";
 import star from "../assets/star.svg";
 import fotoPerfil from "../assets/fotoPerfil.jpg";
 import { BackButton } from "../assets/BackButton";
