@@ -7,17 +7,15 @@ GET http://localhost:3007/api/v1/categories
 GET http://localhost:3007/api/v1/categories/1
 
 ### Post Create new category 
-POST http://localhost:3111/api/v1/roles 
+POST http://localhost:3007/api/v1/categories 
 Content-Type: application/json
 
 {
-    "name": "Mascara Nica",
-    "category_id": 7,
-    "user_id": 1
+    "name": "albañilaria"
 }
 
 ### Patch update category
-PATCH http://localhost:3111/api/v1/role/6
+PATCH http://localhost:3007/api/v1/role/6
 
 {
     "name": "Mascara Tica",
@@ -27,4 +25,4 @@ PATCH http://localhost:3111/api/v1/role/6
 
 ### Delete category
 
-DELETE http://localhost:3111/api/v1/role/7
+DELETE http://localhost:3007/api/v1/role/7

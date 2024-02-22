@@ -70,4 +70,4 @@ const ServiceController = {
       },
     }
   
-export default ServiceController 
+export default ServiceController;

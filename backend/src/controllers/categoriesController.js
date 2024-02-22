@@ -1,32 +1,31 @@
 import { CategoriesModel } from "../models/categoriesModel.js";
 
 const CategoriesController = {
-  getAllCategories: async (_req, res) => {
+  getAllCategories: async (req, res) => {
     try {
       const allCategories = await CategoriesModel.getAllCategories();
-      console.log(allCategories);
-      res.json(allCategories);
+      
+      res.send(allCategories);
     } catch (error) {
       res.status(500).json({ error: "Ocurrió un error al obtener todas las categorías" });
     }
   },
-  getCategories: async (req, res) => {
+  getCategory: async (req, res) => {
     try {
-        const category = await CategoriesModel.getCategory(req.params.categoryId);
-       res.json(category)
+      const id = req.params.category_id;
+      const Category = await CategoriesModel.getCategory(id);
+      res.send(Category);
     } catch (error) {
-        console.error("Error al obtener la categoría:", error);
-        res.status(500).send("Ocurrió un error al obtener la categoría");
+      res.status(500).json({ error: "Ocurrió un error al obtener todas las categorías" });
     }
   },
   createNewCategory: async (req, res) => {
-    const { name, user_id } = req.body;
-    if (!name || !user_id) {
+    const { name } = req.body;
+    if (!name ) {
       return res.status(400).json({ error: "El nombre de la categoría y el ID del usuario son campos obligatorios" });
     }
-  
     try {
-      const createdCategory = await CategoriesModel.createNewCategory(name, user_id);
+      const createdCategory = await CategoriesModel.createNewCategory(name);
       res.json(createdCategory);
     } catch (error) {
       res.status(500).json({ error: "Ocurrió un error al crear la categoría" });

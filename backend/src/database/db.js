@@ -6,7 +6,7 @@ const CONFIG = {
     host: process.env.BD_HOSTNAME,
     port: process.env.BD_PORT,
     user: process.env.BD_USERNAME,
-    password: '',
+    password: process.env.BD_PASSWORD,
     database: process.env.BD_NAME
 };
 
