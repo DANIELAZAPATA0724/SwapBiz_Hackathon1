@@ -41,6 +41,7 @@ export { ServiceModel } */
 
 //importamos sequelize
 import { DataTypes } from "sequelize";
+<<<<<<< HEAD
 import db from "../database/db.js";
 
 const ServiceModel = db.define("services", 
@@ -55,6 +56,18 @@ const ServiceModel = db.define("services",
     user_id: { type: DataTypes.INTEGER },
     service_id: { type: DataTypes.INTEGER },
     
+=======
+import db from "../database/db.js"
+
+const ServiceModel = db.define("services", {
+  service_id: { type: DataTypes.STRING },
+  name: { type: DataTypes.STRING },
+  description: { type: DataTypes.STRING },
+  price: { type: DataTypes.DECIMAL },
+  category_id: { type: DataTypes.STRING },
+  user_id: { type: DataTypes.STRING },
+  is_available : { type: DataTypes.BOOLEAN }
+>>>>>>> fe706193cea3e568088d39cb94be7169ce44ec81
 });
 
 

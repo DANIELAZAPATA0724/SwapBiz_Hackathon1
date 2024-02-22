@@ -14,10 +14,10 @@ const ServiceController = {
 
     getService: async (req, res) => {
         try {
-            const blog = await ServiceModel.findAll({
+            const services = await ServiceModel.findAll({
                 where:{ id:req.params.id }
             })
-            res.json(blog[0])
+            res.json(services[0])
         } catch (error) {
             res.json( {message: error.message} )
         }

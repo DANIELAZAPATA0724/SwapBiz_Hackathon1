@@ -6,6 +6,10 @@ import db from "./database/db.js";
 import { PORT } from "../config.js";
 import  v1CategoriesRouter  from './v1/routes/categoriesRouter.js';
 import  v1ServiceRouter  from './v1/routes/serviceRouter.js';
+<<<<<<< HEAD
+=======
+import { PORT } from "../config.js";
+>>>>>>> fe706193cea3e568088d39cb94be7169ce44ec81
 
 
 const app = express();

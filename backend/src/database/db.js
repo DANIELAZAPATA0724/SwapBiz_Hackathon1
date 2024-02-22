@@ -1,5 +1,6 @@
 import { Sequelize } from "sequelize";
 
+<<<<<<< HEAD
 
 
 const db = new Sequelize ("swapbizz_hakathon", "root", "123456789", {
@@ -7,6 +8,12 @@ const db = new Sequelize ("swapbizz_hakathon", "root", "123456789", {
     dialect: "mysql",
     port: 3306,
     password: "123456789"
+=======
+const db = new Sequelize("swapbizz_hakathon", "root", "", {
+    host: "localhost",
+    dialect: "mysql",
+     port: 3306 
+>>>>>>> fe706193cea3e568088d39cb94be7169ce44ec81
   });
 
 export default db;
